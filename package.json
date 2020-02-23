@@ -1,0 +1,15 @@
+{
+  "name": "adnat-react",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "backend:start": "cd backend && node index.js",
+    "backend:setup": "cd backend && yarn install",
+    "frontend:start": "cd frontend && yarn start",
+    "frontend:setup": "cd frontend && yarn install"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "react-bootstrap": "^1.0.0-beta.16"
+  }
+}
